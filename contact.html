@@ -5,25 +5,39 @@
     <title>Contact Information</title>
   </head>
   <body>
-    <h3>Contact Information</h3>
-    <hr>
-
-      <p>Angelina Taylors</p>
-      <p>Phone: +61 421 586 954</p>
-      <p>67 Longan Buildings, Frankston</p>
-
-      <form class="" action="index.html" method="post">
-        <label>Your Name:</label>
-        <input type="text" name="" value="">
-        <br>
-        <label>Your Email:</label>
-        <input type="email" name="" value=""><br>
-        <label>Your Message:</label><br>
-        <textarea name="name" rows="8" cols="80"></textarea><br>
-        <input type="datetime-local" name="" value="">
-        <input type="submit" name="">
-
-      </form>
-
+    <h2>Contact Information</h2>
+    <p>If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
+  <div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
   </body>
 </html>
